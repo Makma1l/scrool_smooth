@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.container .navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #aaa;
+}
+.container .navbar ul {
+  display: flex;
+}
+.container .navbar ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+.container .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.container .pages #home {
+  background-color: blue;
+}
+.container .pages #shop {
+  background-color: green;
+}
+.container .pages #about {
+  background-color: red;
+}
+.container .pages #profile {
+  background-color: sandybrown;
+}
+.container .pages #footer {
+  background-color: greenyellow;
+}
+.container .pages div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
